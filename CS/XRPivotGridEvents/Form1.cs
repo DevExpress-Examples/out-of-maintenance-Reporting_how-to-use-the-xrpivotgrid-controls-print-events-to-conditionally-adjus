@@ -10,10 +10,10 @@ namespace XRPivotGridEvents {
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            XtraReport1 report = new XtraReport1();
-
-            ReportPrintTool printTool = new ReportPrintTool(report);
-            printTool.ShowPreview();
+            using (XtraReport report = new XtraReport1())
+            using (ReportPrintTool printTool = new ReportPrintTool(report)) {
+                printTool.ShowRibbonPreviewDialog();
+            }
         }
     }
 }
