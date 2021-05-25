@@ -27,8 +27,8 @@ Namespace XRPivotGridEvents
 		Private Sub InitializeComponent()
 			Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
 			Me.xrPivotGrid1 = New DevExpress.XtraReports.UI.XRPivotGrid()
-			Me.salesPersonTableAdapter = New XRPivotGridEvents.nwindDataSetTableAdapters.SalesPersonTableAdapter()
-			Me.nwindDataSet1 = New XRPivotGridEvents.nwindDataSet()
+			Me.salesPersonTableAdapter = New nwindDataSetTableAdapters.SalesPersonTableAdapter()
+			Me.nwindDataSet1 = New nwindDataSet()
 			Me.fieldOrderID = New DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField()
 			Me.fieldCountry = New DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField()
 			Me.fieldFirstName = New DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField()
@@ -202,7 +202,7 @@ Namespace XRPivotGridEvents
 		Private TopMargin As DevExpress.XtraReports.UI.TopMarginBand
 		Private BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
 		Private WithEvents xrPivotGrid1 As DevExpress.XtraReports.UI.XRPivotGrid
-		Private salesPersonTableAdapter As XRPivotGridEvents.nwindDataSetTableAdapters.SalesPersonTableAdapter
+		Private salesPersonTableAdapter As nwindDataSetTableAdapters.SalesPersonTableAdapter
 		Private nwindDataSet1 As nwindDataSet
 		Private fieldOrderID As DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField
 		Private fieldCountry As DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField
