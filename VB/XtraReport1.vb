@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Drawing
 Imports DevExpress.XtraPivotGrid
 Imports DevExpress.XtraReports.UI
@@ -8,6 +7,7 @@ Imports DevExpress.XtraReports.UI
 Namespace XRPivotGridEvents
 	Partial Public Class XtraReport1
 		Inherits DevExpress.XtraReports.UI.XtraReport
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub

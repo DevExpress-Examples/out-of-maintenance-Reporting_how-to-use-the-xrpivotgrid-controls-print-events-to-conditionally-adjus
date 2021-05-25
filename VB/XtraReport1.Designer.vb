@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace XRPivotGridEvents
+﻿Namespace XRPivotGridEvents
 	Partial Public Class XtraReport1
 		''' <summary>
 		''' Required designer variable.
@@ -66,9 +64,12 @@ Namespace XRPivotGridEvents
 			Me.xrPivotGrid1.Name = "xrPivotGrid1"
 			Me.xrPivotGrid1.SizeF = New System.Drawing.SizeF(215F, 50F)
 
-'			Me.xrPivotGrid1.PrintHeader += New System.EventHandler(Of DevExpress.XtraReports.UI.PivotGrid.CustomExportHeaderEventArgs)(Me.xrPivotGrid1_PrintHeader);
-'			Me.xrPivotGrid1.PrintFieldValue += New System.EventHandler(Of DevExpress.XtraReports.UI.PivotGrid.CustomExportFieldValueEventArgs)(Me.xrPivotGrid1_PrintFieldValue);
-'			Me.xrPivotGrid1.PrintCell += New System.EventHandler(Of DevExpress.XtraReports.UI.PivotGrid.CustomExportCellEventArgs)(Me.xrPivotGrid1_PrintCell);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.xrPivotGrid1.PrintHeader += new System.EventHandler<DevExpress.XtraReports.UI.PivotGrid.CustomExportHeaderEventArgs>(this.xrPivotGrid1_PrintHeader);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.xrPivotGrid1.PrintFieldValue += new System.EventHandler<DevExpress.XtraReports.UI.PivotGrid.CustomExportFieldValueEventArgs>(this.xrPivotGrid1_PrintFieldValue);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.xrPivotGrid1.PrintCell += new System.EventHandler<DevExpress.XtraReports.UI.PivotGrid.CustomExportCellEventArgs>(this.xrPivotGrid1_PrintCell);
 
 
 			' 
